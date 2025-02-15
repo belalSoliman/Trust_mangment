@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_screenutil: ^5.9.3
   flutter_native_splash: ^2.4.4
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
@@ -23,7 +24,7 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/launch_icon/Hv1oILB.md.png"
+  image_path: "assets/launch_icon/appIcon.png"
   adaptive_icon_background: "#ffffff"
 flutter_native_splash:
   color: "#9C94F3" # Background color of the splash screen
@@ -42,5 +43,5 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/launch_icon/Hv1oILB.md.png
     - assets/splash_icon/2.png
+    - assets/launch_icon/appIcon.png
