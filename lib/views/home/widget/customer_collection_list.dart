@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:trust/views/home/widget/customer_item.dart';
 
-class CustomerList extends StatelessWidget {
-  const CustomerList({super.key});
+class CustomerCollectionList extends StatelessWidget {
+  const CustomerCollectionList({super.key});
 
   @override
   Widget build(BuildContext context) {
