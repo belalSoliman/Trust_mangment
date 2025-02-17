@@ -14,6 +14,7 @@ class TrustApp extends StatelessWidget {
       initialRoute: Routes.homeView, // Set the initial route
       onGenerateRoute: AppRoute().generateRoute,
       home: HomeView(),
+
       debugShowCheckedModeBanner: false,
     );
   }
